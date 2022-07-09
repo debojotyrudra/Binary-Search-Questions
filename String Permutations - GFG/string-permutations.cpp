@@ -17,7 +17,7 @@ class Solution{
         {
             swap(S[i],S[j]);
             perm(i+1,S,ans);
-            swap(S[j],S[i]);
+            swap(S[i],S[j]);
         }
     }
     vector<string> permutation(string S)
