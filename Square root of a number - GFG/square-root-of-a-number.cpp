@@ -12,7 +12,7 @@ class Solution{
     long long int floorSqrt(long long int x) 
     {
         // Your code goes here  
-        long long int res=1,mid=0,l=1,r=x/2;
+        long long int res=1,mid=0,l=1,r=x;
         while(l<=r)
         {
             mid=l+(r-l)/2;
